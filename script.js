@@ -34,3 +34,5 @@ const searchBar = document.getElementById("searchBar");
 searchBar.addEventListener("keypress", setQuery);
 
 
+
+
