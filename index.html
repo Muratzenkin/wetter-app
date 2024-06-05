@@ -21,7 +21,7 @@
   <body>
 
     <!-- ------- Header Bereich ----------- -->
-    <section class="d-flex justify-content-around">
+    <section class="d-flex justify-content-around" id="fixed">
     <!-- -----Logo----- -->
       <nav class="navbar">
         <div class="container-fluid">
@@ -36,19 +36,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#weather">Weather</a>
+                <a class="nav-link" href="#weather">Weather <i class="fa-solid fa-down-long"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects-section">Wochenvorschau</a>
+                <a class="nav-link" href="#projects-section">Wochenvorschau <i class="fa-solid fa-down-long"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#news">News</a>
+                <a class="nav-link" href="#news">News <i class="fa-solid fa-down-long"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#videos">Videos</a>
+                <a class="nav-link" href="#videos">Videos <i class="fa-solid fa-down-long"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="comments.html">Kommentare</a>
+                <a class="nav-link" href="comments.html">Kommentare <i class="fa-solid fa-down-long"></i></a>
               </li>
             
             </ul>
@@ -79,7 +79,7 @@
     <!------ Header end ----------------- -->
     <!-- ------- Weather Bereich ----------- -->
 
-    <div class="container mt-5 "  id="weather">
+    <div class="container "  id="weather">
       <div class="card shadow text-center bg-transparent" style="height: 600px;" id="card">
         <div class="card-header d-flex justify-content-between align-items-center">
           <i class="fas fa-sun fa-2x text-warning"></i>
@@ -355,7 +355,7 @@
 
     <!-- Videos Bereich  -->
 
-    <div class="container bg-white" id="videos">
+    <div class="container" id="videos">
       <h2 class="text-center mb-4">Empfehlungen - Wettervideos und Wettervorhersagen</h2>
       <div class="row">
         <div class="col p-4 m-3">
@@ -391,6 +391,58 @@
           <a href="#">Zum Video<i class="fa-solid fa-right-long text-white bg-info rounded-5"></i></a>
         </div>
       </div>
+    </div>
+
+    <!-- ------- Reisewetter Bereich ----------- -->
+
+    <div class="container" id="reisewetter">
+      <h2 class="text-center mb-4">Reisewetter</h2>
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3">
+        <div class="card col my-3">
+          <div class="card-body">
+            <h5 class="card-title">Top Reiseziele</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+           <li class="list-group-item"><a href="#"> Mallorca<i class="fa-solid fa-right-long mx-3"></i></a></li>
+           <li class="list-group-item"><a href="#"> Gran Canaria<i class="fa-solid fa-right-long mx-3"></i></a></li>
+           <li class="list-group-item"><a href="#"> Südtirol<i class="fa-solid fa-right-long mx-3"></i></a></li>
+           <li class="list-group-item"><a href="#"> Miami<i class="fa-solid fa-right-long mx-3"></i></a></li>
+           <li class="list-group-item"><a href="#"> Sardinien<i class="fa-solid fa-right-long mx-3"></i></a></li>
+          </ul>
+          
+        </div>
+        <div class="card col my-3">
+          <div class="card-body">
+            <h5 class="card-title">Deutschland</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="#"> Berlin<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> Münich<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> Hamburg<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> Frankfurt<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> Düsseldorf<i class="fa-solid fa-right-long mx-3"></i></a></li>
+           </ul>
+          
+        </div>
+        <div class="card col my-3 ">
+          <div class="card-body">
+            <h5 class="card-title">International</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="#"> Ägypten<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> Dubai<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> Türkei<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> Tailand<i class="fa-solid fa-right-long mx-3"></i></a></li>
+            <li class="list-group-item"><a href="#"> USA<i class="fa-solid fa-right-long mx-3"></i></a></li>
+           </ul>
+          
+        </div>
+      
+    </div>
+
     </div>
 
     <!-- ------- Footer Bereich ----------- -->
